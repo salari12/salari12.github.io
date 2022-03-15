@@ -1,0 +1,25 @@
+select{
+background-color:rgb(250, 200,230);
+width: 100px;
+height: 30px;
+border-radius: 20px;
+}
+.a1{
+    text-align: center;
+}
+.a2{
+    margin-top: -55px;
+}
+.a3{
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 350px;
+}
+.a4{
+    text-align: center;
+    font-size: 25px;
+}
+body{
+    background-color:rgb(100,300,250);
+}
