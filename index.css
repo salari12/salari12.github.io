@@ -26,3 +26,9 @@ border-radius: 20px;
 body{
     background-color:rgb(100,300,250);
 }
+.about{
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(114, 105, 71);
+}
