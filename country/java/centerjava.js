@@ -1,0 +1,1 @@
+document.getElementById('fontbig').style.fontSize="20px";

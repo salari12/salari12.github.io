@@ -1,0 +1,15 @@
+.poland{
+    text-align: center;
+}
+.flag{
+    width: 430px;
+    height: 300px;
+    margin-left: 560px;
+    border-radius: 3px;
+}
+body{
+    background-color: antiquewhite;
+}
+.film{
+    float: right;
+}

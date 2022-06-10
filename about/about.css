@@ -12,6 +12,14 @@
     color: white;
     transition: 2s;
 }
+.about{
+    text-align: center;
+}
+.picture{
+    width: 280px;
+    height: 200px;
+    margin-left: 600px;
+}
 .exite{
     text-decoration: none;
     color: brown;
