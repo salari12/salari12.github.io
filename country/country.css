@@ -1,11 +1,11 @@
 .navbar {
     overflow: hidden;
-    background-color: red;
+    background-color: rgb(196, 225, 31);
 }
 .navbar a {
     float: right;
     font-size: 16px;
-    color: yellow;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px  16px;
     text-decoration: none;
@@ -18,21 +18,21 @@
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: rgb(244, 11, 11);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
 .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: red;
+    background-color: rgb(0, 145, 255);
 }
   
 .subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: red;
+    background-color: rgb(255, 0, 238);
     width: 100%;
     z-index: 1;
 }
@@ -44,7 +44,7 @@
 }
   
 .subnav-content a:hover {
-    background-color: #eee;
+    background-color: rgb(134, 93, 93);
     color: black;
 }
   .subnav:hover .subnav-content {
@@ -61,4 +61,22 @@
 }
 .morecountry{
     width:20px;
+}
+.select{
+    background-color: rgb(131, 209, 177);
+    text-align: center;
+    border-radius: 10px;
+    border-color: red;
+}
+.select:hover{
+    background-color: darkturquoise;
+}
+.all{
+    text-align: center;
+}
+.video{
+    margin-top: 50px;
+}
+body{
+    background-color: antiquewhite;
 }
