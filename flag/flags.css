@@ -1,7 +1,18 @@
+@font-face {
+    font-family: font;
+    src: url(./font/BASKVILL.TTF);
+}
+@font-face {
+    font-family: font2;
+    src: url(./font/KUNSTLER.TTF);
+}
 .a1{
     text-align: center;
     background-color: darkcyan;
     width: 100%;
+    font-family: font2;
+    font-size: 55px;
+    border-radius: 50px;
 }
 .a2{
     width: 700px;
@@ -101,4 +112,13 @@
 }
 .button{
     float: right;
+    font-family: font;
+}
+body{
+    background-color: tan;
+}
+.width{
+    margin-left: 400px;
+    color:darkslategrey;
+    font-family: font;
 }

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: font1;
+    src: url(./font/BASKVILL.TTF);
+}
+@font-face {
+    font-family: font2;
+    src: url(./font/LCALLIG.TTF);
+}
+@font-face {
+    font-family: font3;
+    src: url(./font/arabtype.ttf);
+}
+select{
+background-color:rgb(250, 200,230);
+width: 100px;
+height: 30px;
+border-radius: 20px;
+font-size: 22px;
+font-family: font3;
+}
+.a1{
+    text-align: center;
+    font-family: font1;
+}
+.a2{
+    margin-top: -55px;
+}
+.a3{
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 450px;
+}
+.a4{
+    text-align: center;
+    font-size: 25px;
+    font-family: font2;
+}
+.a5{
+    margin-top: -47px;
+}
+body{
+    background-image: radial-gradient(red,black,yellow,green,gray,white,brown,pink);
+}
+.about{
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(85, 79, 55);
+    font-family: font3;
+}
