@@ -52,7 +52,7 @@ font-family: font3;
     margin-top: -47px;
 }
 body{
-    background-image: radial-gradient(red,black,yellow,green,gray,white,brown,pink);
+    background-image: url(background.jpg);
 }
 .about{
     text-align: center;

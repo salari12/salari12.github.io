@@ -67,6 +67,7 @@
     text-align: center;
     border-radius: 10px;
     border-color: red;
+    margin-right: 40px;
 }
 .select:hover{
     background-color: darkturquoise;
@@ -79,4 +80,9 @@
 }
 body{
     background-color: antiquewhite;
+}
+.button{
+    border: none;
+    margin-top: 15px;
+    background-color: #f8f9fa;
 }
