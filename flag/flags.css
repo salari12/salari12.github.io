@@ -113,6 +113,11 @@
 .button{
     float: right;
     font-family: font;
+    border-radius: 50px;
+    margin-top: 24px;
+}
+.back{
+    text-decoration: none;
 }
 body{
     background-color: tan;
