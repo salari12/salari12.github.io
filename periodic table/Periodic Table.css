@@ -11,7 +11,12 @@ body{
 .a2{
     color: rgb(255, 255, 255);
     font-size: 20px;
+    text-decoration: none;
 }
 .button{
     float: right;
+    margin-top: -20px;
+}
+.demclass td{
+    color: black;
 }
