@@ -7,6 +7,13 @@
     margin-left: 560px;
     border-radius: 3px;
 }
+.aboutpoland{
+    text-align: center;
+}
+.name{
+    text-align: right;
+    margin-right: 200px;
+}
 body{
     background-color: antiquewhite;
 }
