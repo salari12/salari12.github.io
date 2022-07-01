@@ -116,6 +116,15 @@
     border-radius: 50px;
     margin-top: 24px;
 }
+.button2{
+    clear: both;
+    position: sticky;
+    bottom: 5px;
+    right: 10px;
+    float: right;
+    border: none;
+    border-radius: 10px;
+}
 .back{
     text-decoration: none;
 }
