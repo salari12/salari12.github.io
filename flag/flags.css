@@ -13,6 +13,7 @@
     font-family: font2;
     font-size: 55px;
     border-radius: 50px;
+    margin-top: 20px;
 }
 .a2{
     width: 700px;
@@ -114,7 +115,7 @@
     float: right;
     font-family: font;
     border-radius: 50px;
-    margin-top: 24px;
+    margin-top: 5px;
 }
 .button2{
     clear: both;
@@ -135,4 +136,9 @@ body{
     margin-left: 400px;
     color:darkslategrey;
     font-family: font;
+}
+.buttonall{
+    position:fixed;
+    clear: both;
+    margin-left: 70px;
 }
