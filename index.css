@@ -33,10 +33,6 @@ border-radius: 20px;
 font-size: 22px;
 font-family: font3;
 }
-.a1{
-    text-align: center;
-    font-family: font1;
-}
 .a2{
     margin-top: -55px;
 }
@@ -52,7 +48,6 @@ font-family: font3;
 }
 .a3:hover{
     border-color: blue;
-    border-radius: 50%;
     transition: 2s;
 }
 .tran{
@@ -74,7 +69,7 @@ font-family: font3;
     -webkit-background-clip: text;
     animation: animate 100s ease-in-out infinite;
     text-align: center;
-    text-transform: uppercase;
+    text-transform:initial;
     font-weight: 900;
 }
 .a5{
@@ -89,4 +84,47 @@ body{
     font-size: 17px;
     color: rgb(85, 79, 55);
     font-family: font3;
+}
+.container{
+    position: relative;
+    color: rgb(14, 12, 12);
+    font-size: 4em;
+    filter: contrast(15);
+    margin-top: 90px;
+}
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: switch 8s infinite ease-in-out;
+    min-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.word:nth-child(1){
+    animation-delay: -7s;
+}
+.word:nth-child(2){
+    animation-delay: -6s;
+}
+.word:nth-child(3){
+    animation-delay: -5s;
+}
+.word:nth-child(4){
+    animation-delay: -4s;
+}
+@keyframes switch{
+    0%,
+    5%,
+    100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    
+    50%,
+    80%{
+        filter: blur(180px);
+        opacity: 0;
+    }
 }
