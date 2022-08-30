@@ -1,0 +1,15 @@
+body{
+    background-color: #89CFFD;
+  }
+.pic3{
+    width: 900px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.pic4{
+    width: 98%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
