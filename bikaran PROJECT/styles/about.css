@@ -1,0 +1,40 @@
+body{
+    background-color: #f4c900;
+}
+.text{
+    background-color: aqua;
+    width: 500px;
+    border-radius: 50px;
+    text-align: center;
+    float: right;
+}
+
+
+.tranz{
+    display: flex;
+}
+.tranz h1{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.01);
+    background-image: url('../pictures/R.jpg');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+@keyframes animate{
+    0%,
+    100%{
+        background-position: left top;
+    }
+    25%{
+        background-position: right bottom;
+    }
+    50%{
+        background-position: left bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+}
