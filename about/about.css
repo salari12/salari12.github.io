@@ -1,3 +1,18 @@
+@keyframes animate{
+    0%,
+    100%{
+        background-position: left top;
+    }
+    25%{
+        background-position: right bottom;
+    }
+    50%{
+        background-position: left bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+}
 .name{
     text-align: center;
     width: 100%;
@@ -27,4 +42,29 @@
 }
 .exite:hover{
     color:fuchsia;
+}
+
+
+
+.tran{
+    margin-top: 5px;
+    margin-left: 455px;
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+}
+.tran pre{
+    margin: 0;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.01);
+    background-image: url("../picture/R.jpg");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    animation: animate 100s ease-in-out infinite;
+    text-align: center;
+    text-transform:initial;
+    font-weight: 900;
 }
