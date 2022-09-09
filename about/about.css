@@ -13,23 +13,12 @@
         background-position: right top;
     }
 }
-.name{
-    text-align: center;
-    width: 100%;
-    height: 30px;
-    background-color: darkturquoise;
-    border-radius: 10px;
-}
 .name:hover{
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: black;
     color: white;
     transition: 2s;
-}
-.about{
-    text-align: center;
-    font-size: 40px;
 }
 .picture{
     width: 280px;
@@ -47,10 +36,6 @@
 
 
 .tran{
-    margin-top: 5px;
-    margin-left: 455px;
-    width: 600px;
-    height: 60px;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -58,7 +43,7 @@
 }
 .tran pre{
     margin: 0;
-    font-size: 40px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.01);
     background-image: url("../picture/R.jpg");
     background-repeat: repeat;
