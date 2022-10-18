@@ -8,6 +8,8 @@
 }  
 body {  
  font-family:montserrat;  
+ background-image: url(./picture/background12.jpg);
+ background-repeat: no-repeat;
 }  
 nav {  
  height:80px;  
@@ -70,14 +72,16 @@ a.active,a:hover {
  }  
  ul {  
   position: fixed;  
-  height:100vh;  
+  height:1000vh;  
   width:100%;  
   /*background: #0a0a0a;  */
   top:80px;  
   left:-100%;  
   text-align:center;  
   transition: all .5s;  
-  background-image: url(./picture/wallpaper\ background.jpg);
+  background-image: url(./picture/pink\ wallpaper.jpg);
+  background-repeat: no-repeat;
+  z-index: 1;
  }  
  nav ul li {  
   display:block;  
@@ -90,6 +94,7 @@ a.active,a:hover {
  a.active,a:hover {  
   background:none;  
   color: #0082e6;  
+  font-size: 25px;
  }  
  #check:checked ~ ul {  
   left:0;  
@@ -134,9 +139,12 @@ a.active,a:hover {
     }
   }
   .infocreate{
-    color: darkgreen;
+    color: rgb(219, 163, 163);
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
   }
   
+  .is-animetion{
+    color: gray;
+  }
