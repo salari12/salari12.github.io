@@ -1,13 +1,7 @@
-@font-face {
-    font-family: font;
-    src: url(./font/BASKVILL.TTF);
-}
-@font-face {
-    font-family: font2;
-    src: url(./font/KUNSTLER.TTF);
-}
+
 .welcome{
     height: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,15 +34,6 @@
         background-position: left bottom;
     }
 }
-/*.a1{
-    text-align: center;
-    background-color: darkcyan;
-    width: 100%;
-    font-family: font2;
-    font-size: 55px;
-    border-radius: 50px;
-    margin-top: 20px;
-}*/
 .a2{
     width: 700px;
     height: 100px;
@@ -169,6 +154,7 @@ body{
     font-family: font;
 }
 .topmenu{
+    width: 100%;
     height: 100px;
     background-color: chocolate ;
     position: relative;
