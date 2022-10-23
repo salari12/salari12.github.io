@@ -1,4 +1,5 @@
-    # salari12.github.io <br>    <center>
+# salari12.github.io <br>
+    <center>
 the project write by sobhan salari <br> 
 project have language HTML & CSS & JAVASCRIPT $ PHP <br>
 created in 2022 <br> 
