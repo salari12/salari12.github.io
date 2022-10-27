@@ -186,4 +186,19 @@ a:hover {
 .is-animetion {
   color: gray;
 }
+.navss{
+  position: absolute;
+  background: black;
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+  left: 490px;
+  display: none;
+}
+.ulul li:hover .navss{
+  display: block;
+}
+.ulul{
+  color: white;
+}
 /*create by sobhan salari 2022*/
