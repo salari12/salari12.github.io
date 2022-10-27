@@ -1,47 +1,125 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ورود کاربر</title>
-    <link rel="stylesheet" href="../styles/login.css">
-    <link rel="icon" href="../picture/logo.jpg">
-    <script
-      src="https://kit.fontawesome.com/66aa7c98b3.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./Login Form.css" />
+<!DOCTYPE html>
+<html lang ="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../styles/login.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>ثبت نام کاربران</title>
   </head>
-  <body>
-    <div class="container">
-      <form class="form-1">
-        <h1>ورود کاربر</h1>
-        <label for="email">ایمیل</label>
-        <input type="email" name="email" id="email" required />
-        <label for="password">پسورد</label>
-        <input type="password" name="password" id="password" required />
-        <a href="../pages/forget.html">فراموشی رمز</a>
-        <a href="../pages/private.html" class="enter">ورود</a>
-
-        <!-- .........///sign-up///.......... -->
-
-        <p>ما را در شبکه های اجتماعی دنبال کنید</p>
-        <div class="icons">
-          <a href="https://www.facebook.com/" target="blank"
-            ><i class="fab fa-facebook"></i
-          ></a>
-          <a href="https://www.linkedin.com" target="blank"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-          <a href="https://www.instagram.com" target="blank"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </div>
-      </form>
-      <a href="../gap.html">
-        <span>بازگشت</span>
-        <div class="liquid"></div>
-      </a>
+<body>
+  <div class="container">
+    <header>ثبت نام کاربران</header>
+    <div class= "progress-bar">
+      <div class="step">
+        <p>نام</p>
+        <div class="bullet">
+          <span>1</span>
+      </div>
+      <div class="check fas fa-check">
+      </div>
     </div>
-  </body>
+
+      <div class="step">
+        <p>اطلاعات</p>
+        <div class="bullet">
+          <span>2</span>
+      </div>
+      <div class="check fas fa-check">
+      </div>
+      </div>
+
+      <div class="step">
+        <p>تولد</p>
+        <div class="bullet">
+          <span>3</span>
+      </div>
+      <div class="check fas fa-check">
+      </div>  
+      </div>
+
+      <div class="step">
+        <p>ورود</p>
+        <div class="bullet">
+          <span>4</span>
+      </div>
+      <div class="check fas fa-check">
+      </div>
+      </div>
+    </div>
+    <div class="form-outer">
+      <form action="#">
+        <div class="page slidepage">
+          <div class="title">: اطلاعات ورود</div>
+          <div class="field">
+            <div class="label">نام</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">نام خانوادگی</div>
+            <input type="text">
+          </div>
+          <div class="field nextBtn">
+            <button>بعدی</button>
+          </div>
+          </div>
+
+        <div class="page">
+          <div class="title">اطلاعات</div>
+          <div class="field">
+            <div class="label">ایمیل</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">شماره همراه</div>
+            <input type="number">
+          </div>
+          <div class="field btns">
+            <button class="next-1 next">بعدی</button>
+          </div>
+          </div>
+        
+        <div class="page">
+          <div class="title">سال تولد</div>
+          <div class="field">
+            <div class="label">سال</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">جنسیت</div>
+            <select>
+              <option>مرد</option>
+              <option>زن</option>
+              <option>*</option>
+            </select>
+          </div>
+          <div class="field btns">
+            <button class="next-2 next">بعدی</button>
+          </div>
+          </div>
+        
+       
+        <div class="page">
+          <div class="title">اطلاعات ورود</div>
+          <div class="field">
+            <div class="label">نام کاربری</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">پسورد</div>
+            <input type="password">
+          </div>
+          <div class="field btns">
+
+            <button class="Submit"><a href="./private.html">وارد شوید</button></a>
+          </div>
+          </div>
+        </form>
+      </div>
+      <nav class="navend">
+        <a href="../gap.html" class="back">بازگشت به صفحه اصلی</a>
+      </nav>
+  </div>
+  <script src="../styles/login.js"></script>
+</body>
 </html>
