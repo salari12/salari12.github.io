@@ -2,16 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
     }
     :root{
-    --color-car-body:#f06043;
+    --color-car-body:#000000;
     --color-bg-1:#e4ffff;
     }
     html{
     height: 100%;
     }
     body{
-    background-image: linear-gradient(to top,#88d6e7 30%,#e4ffff 20%);
+    background-image: linear-gradient(to top,#88e796 30%,#e4ffff 20%);
     overflow: hidden;
     }
     .car{
@@ -28,7 +29,7 @@
     width: 24vmin;
     height: 14vmin;
     transform: skew(-10deg);
-    border:3vmin solid #4a4c48;
+    border:3vmin solid #289bb3;
     border-radius: 1vmin;
     border-right: 0;
     }
@@ -40,7 +41,7 @@
     width: 10vmin;
     height: 100%;
     transform:translateX(120%) skew(50deg);
-    border:3vmin solid #4a4c48;
+    border:3vmin solid #289bb3;
     border-left: 0;
     }
     .car__top::before{
@@ -51,7 +52,7 @@
     width: 16vmin;
     height: 100%;
     transform: translateX(70%) skew(10deg);
-    border:3vmin solid #4a4c48;
+    border:3vmin solid #289bb3;
     border-right: 0;
     border-top: 0;
     }
@@ -78,7 +79,7 @@
     top: 14%;
     left: 2%;
     transform: rotate(35deg);
-    background-color:#d14022;
+    background-color:#ff2a00;
     }
     .car__center{
     position: absolute;
@@ -88,7 +89,7 @@
     width: 10vmin;
     height: 2vmin;
     border-radius: 2vmin;
-    background-color: #fff;
+    background-color: rgb(79, 235, 6);
     }
     .car__wheels{
     display: flex;
@@ -116,7 +117,7 @@
     width:var(--r);
     height:var(--r);
     border-radius: 50%;
-    background-color: #323232;
+    background-color: #000000;
     }
     .wheel__rect{
     position: absolute;
@@ -162,7 +163,7 @@
     width: 20vmin;
     height: 10vmin;
     border-radius: 10vmin 10vmin 0 6vmin;
-    background-color: #b5edf9;
+    background-color: #55bed3;
     -webkit-animation: cloud 10s var(--delay) linear infinite backwards;
     animation: cloud 10s var(--delay) linear infinite backwards;
     }
@@ -175,7 +176,7 @@
     border-radius: 6rem 10rem 1rem 0;
     -webkit-transform: translateX(9vmin);
     transform: translateX(9vmin);
-    background-color: #b5edf9;
+    background-color: #55bed3;
     }
     .cloud::before {
     content: "";
@@ -232,4 +233,15 @@
     100%{
     transform: translate(-50%,-100%) rotate(0deg);
     }
+    }
+
+    .back{
+        border-radius: 20px;
+        background: #d0ff00;
+        padding: 10px;
+        width: 150px;
+    }
+    .back:hover{
+        background: deepskyblue;
+        transition: 1s;
     }
