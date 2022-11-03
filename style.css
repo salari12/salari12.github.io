@@ -114,8 +114,8 @@ a:hover {
     background: none;
     color: #0082e6;
     font-size: 25px;
+    display: block;
   }
-
   #check:checked~ul {
     left: 0;
   }
@@ -200,5 +200,8 @@ a:hover {
 }
 .ulul{
   color: white;
+}
+.navss a{
+  text-decoration: none;
 }
 /*create by sobhan salari 2022*/
