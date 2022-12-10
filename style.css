@@ -81,6 +81,9 @@ a:hover {
 }
 
 @media (max-width:858px) {
+  body{
+    overflow-y: scroll;
+  }
   .checkbtn {
     display: block;
   }
@@ -108,7 +111,13 @@ a:hover {
   nav ul li a {
     font-size: 20px;
   }
-
+  nav ul li p{
+    display: block;
+  }
+  .ulul{
+    height: 90%;
+    overflow-y:auto;
+  }
   a.active,
   a:hover {
     background: none;
@@ -184,7 +193,7 @@ a:hover {
 }
 
 .is-animetion {
-  color: gray;
+  color: white;
 }
 .navss{
   position: absolute;
