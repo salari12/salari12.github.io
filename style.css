@@ -21,11 +21,13 @@ nav {
 }
 
 label.logo {
+  float: left;
   color: rgb(0, 0, 0);
   line-height: 80px;
   font-size: 30px;
   padding: 0 50px;
   font-weight:bolder;
+  display: none;
 }
 
 nav ul {
@@ -52,7 +54,6 @@ a:hover {
   background: #1b9bff;
   transition: 0.5s;
   text-decoration: none;
-
 }
 
 .checkbtn {
@@ -71,6 +72,8 @@ a:hover {
 
 @media (max-width:952px) {
   label.logo {
+    float: left;
+    display: block;
     font-size: 30px;
     padding-left: 50px;
   }
